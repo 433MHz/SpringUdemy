@@ -19,6 +19,7 @@ class="pl.krystian.SpringUdemy.BaseballCoach">
 
 <bean id="myCoachTrack"
 class="pl.krystian.SpringUdemy.TrackCoach">
+	<property name="service" ref="fortuneService"></property>
 </bean>
 
 </beans>
